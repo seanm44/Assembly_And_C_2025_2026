@@ -13,10 +13,10 @@ START:                  ; first instruction of program
     MOVE.L  #200,   D2
     MOVE.L  #$101,  D3
     
-    MOVE.L  A0,    $3000 
-    MOVE.L  A1,    $2900
-    MOVE.L  A2,    $2662
-    MOVE.L  A3,    $1432
+    MOVE.L  D0,    $3000 
+    MOVE.L  D1,    $2900
+    MOVE.L  D2,    $2662
+    MOVE.L  D3,    $1432
     
     MOVE.W  #200,  $3000
     MOVE.W  #$400, $2900
@@ -34,6 +34,10 @@ START:                  ; first instruction of program
 
     END    START        ; last line of source
 
+*~Font name~Courier New~
+*~Font size~10~
+*~Tab type~1~
+*~Tab size~4~
 *~Font name~Courier New~
 *~Font size~10~
 *~Tab type~1~
