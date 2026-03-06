@@ -1,4 +1,6 @@
-#Name: Sean Maher
+#BasketBall Hopper
+
+Name: Sean Maher
 Student Number: C00310393
 Game Title: BasketHopper
 
